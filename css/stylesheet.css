@@ -1,0 +1,39 @@
+.tab {
+    width: 10%;
+    float: left;
+    border: solid thin gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.tab:hover {
+    cursor: pointer;
+}
+
+.tabContent {
+    clear: left;
+    padding: 20px 10px;
+}
+
+.active {
+    background-color: rgb(245, 131, 24);
+    color: white;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: circle;
+    text-decoration: double;
+    text-align: justify;
+    list-style-position: inside;
+}
+
+ul li {
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
