@@ -1,39 +1,80 @@
-.tab {
-    width: 10%;
-    float: left;
-    border: solid thin gray;
-    text-align: center;
-    padding: 10px 0;
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+.header .icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+.header h2 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #666;
+}
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+/* .tab {
+  width: 10%;
+  float: left;
+  border: solid thin gray;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .tab:hover {
-    cursor: pointer;
-}
+  cursor: pointer;
+} */
 
-.tabContent {
-    clear: left;
-    padding: 20px 10px;
-}
+/* .tabContent {
+  clear: left;
+  padding: 20px 10px;
+} */
 
 .active {
-    background-color: rgb(245, 131, 24);
-    color: white;
-    font-weight: bold;
+  background-color: rgb(245, 131, 24);
+  color: white;
+  font-weight: bold;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 ul {
-    list-style: circle;
-    text-decoration: double;
-    text-align: justify;
-    list-style-position: inside;
+  list-style: circle;
+  text-decoration: double;
+  text-align: justify;
+  list-style-position: inside;
 }
 
 ul li {
-    color: darkred;
-    padding: 5px;
-    margin-left: 35px;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
 }
