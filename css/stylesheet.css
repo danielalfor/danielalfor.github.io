@@ -78,3 +78,9 @@ ul li {
   padding: 5px;
   margin-left: 35px;
 }
+
+#cardsOutput {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
