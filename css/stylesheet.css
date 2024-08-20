@@ -84,3 +84,22 @@ ul li {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+/* Responsiveness */
+
+.icon {
+  width: 100px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon {
+    width: 35px;
+  }
+}

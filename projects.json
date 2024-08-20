@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "projectName": "Sports Store Online",
+      "description": "Some descriptive text",
+      "image": "./image/projectimage/project1.jpg",
+      "stack": ["HTML", "CSS", "Javascript", "PHP"]
+    },
+    {
+      "projectName": "Desktop Inventory App",
+      "description": "Some descriptive text",
+      "image": "./image/projectimage/project1.jpg",
+      "stack": ["C#", "MySQL", ".NET"]
+    },
+    {
+      "projectName": "Sports Store Online",
+      "description": "Some descriptive text",
+      "image": "./image/projectimage/project1.jpg",
+      "stack": ["HTML", "CSS", "Javascript", "PHP"]
+    },
+    {
+      "projectName": "Desktop Inventory App",
+      "description": "Some descriptive text",
+      "image": "./image/projectimage/project1.jpg",
+      "stack": ["C#", "MySQL", ".NET"]
+    },
+    {
+      "projectName": "Sports Store Online",
+      "description": "Some descriptive text",
+      "image": "./image/projectimage/project1.jpg",
+      "stack": ["HTML", "CSS", "Javascript", "PHP"]
+    },
+    {
+      "projectName": "Desktop Inventory App",
+      "description": "Some descriptive text",
+      "image": "./image/projectimage/project1.jpg",
+      "stack": ["C#", "MySQL", ".NET"]
+    }
+  ]
+}
