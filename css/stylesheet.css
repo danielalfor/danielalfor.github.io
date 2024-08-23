@@ -85,6 +85,40 @@ ul li {
   justify-content: space-around;
 }
 
+/* Individual card */
+.card {
+  width: calc(33.333% - 20px); /* Adjust card width for responsiveness */
+  margin: 10px; /* Add margin between cards */
+}
+
+/* Card image */
+.card-img-top {
+  width: 100%; /* Make image fill the width of the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Card body */
+.card-body {
+  display: flex;
+  flex-direction: column; /* Stack card body content vertically */
+  justify-content: space-between; /* Distribute content vertically */
+}
+
+/* Card title */
+.card-title {
+  font-size: 1.2rem; /* Adjust title font size */
+}
+
+/* Card text */
+.card-text {
+  font-size: 1rem; /* Adjust text font size */
+}
+
+/* Button */
+.btn {
+  margin-top: 10px; /* Add margin above the button */
+}
+
 /* Responsiveness */
 
 .icon {

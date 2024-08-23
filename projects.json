@@ -2,13 +2,25 @@
   "projects": [
     {
       "projectName": "Sports Store Online",
-      "description": "Some descriptive text",
+      "description": "Web app that uses PHP and MySql on the server side, and HTML, CSS, JS on the user side",
       "image": "./image/projectimage/project1.jpg",
       "stack": ["HTML", "CSS", "Javascript", "PHP"]
     },
     {
       "projectName": "Desktop Inventory App",
-      "description": "Some descriptive text",
+      "description": "Windows Desktop App, built on .NET Framework using C# and My Sql on the back end and C# on windows forms on the user end.",
+      "image": "./image/projectimage/project1.jpg",
+      "stack": ["C#", "MySQL", ".NET"]
+    },
+    {
+      "projectName": "Restaurant App",
+      "description": "Built on Express Server for the back end and mongo DB, React on the front-end.",
+      "image": "./image/projectimage/project1.jpg",
+      "stack": ["HTML", "CSS", "React", "PHP"]
+    },
+    {
+      "projectName": "Data Visualization Dashboard",
+      "description": "Personalized reports and graphs for a mySql database",
       "image": "./image/projectimage/project1.jpg",
       "stack": ["C#", "MySQL", ".NET"]
     },
@@ -19,20 +31,8 @@
       "stack": ["HTML", "CSS", "Javascript", "PHP"]
     },
     {
-      "projectName": "Desktop Inventory App",
-      "description": "Some descriptive text",
-      "image": "./image/projectimage/project1.jpg",
-      "stack": ["C#", "MySQL", ".NET"]
-    },
-    {
-      "projectName": "Sports Store Online",
-      "description": "Some descriptive text",
-      "image": "./image/projectimage/project1.jpg",
-      "stack": ["HTML", "CSS", "Javascript", "PHP"]
-    },
-    {
-      "projectName": "Desktop Inventory App",
-      "description": "Some descriptive text",
+      "projectName": "Junior Programmer Communitity",
+      "description": "Online tutorials for learning web development and programming for spanish speakers.",
       "image": "./image/projectimage/project1.jpg",
       "stack": ["C#", "MySQL", ".NET"]
     }
