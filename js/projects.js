@@ -49,12 +49,7 @@ function buildCards() {
        card.classList.add("card");
        card.style.width = "18rem";
     
-       let image = document.createElement("img");
-       image.src = row.image_url;
-       //console.log("Url of this image is: " + row.image_url);
-       image.classList.add("card-img-top");
-       image.alt = row.image;
-       card.appendChild(image);
+       //here
     
        let body = document.createElement("div");
        body.classList.add("card-body");
@@ -68,6 +63,13 @@ function buildCards() {
        text.classList.add("card-text");
        text.textContent = "Details : " + row.description;
        body.appendChild(text);
+
+       let image = document.createElement("img");
+       image.src = row.image;
+       //console.log("Url of this image is: " + row.image_url);
+       image.classList.add("card-img-top");
+       image.alt = row.image;
+       body.appendChild(image);
     
     //   let form = document.createElement("form");
     //   form.action = "addtoCart.php"; //addtoCart.php
