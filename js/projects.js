@@ -29,16 +29,14 @@ function loadProjects() {
 }
 
 
-// ***** Build a items table into itemsOutput div
+// ***** Build Project Cards on body
 function buildCards() {
-    
     //let arr = text.projects; // get JS Objects
     //console.log(arr);
     
     console.log("length is " + allProjects.length);
 
     let container = document.querySelector("#cardsOutput");
-
 
     for (let i = 0; i < allProjects.length; i++) {
       let row = allProjects[i];
@@ -135,5 +133,5 @@ function buildTable() {
 
     document.querySelector("#cardsOutput").innerHTML = html;
     
-    
+
 }
